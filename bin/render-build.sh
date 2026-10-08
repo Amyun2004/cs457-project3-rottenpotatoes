@@ -10,3 +10,4 @@ if [ "${SEED_DATABASE:-false}" = "true" ]; then
   bin/rails db:seed
 fi
 
+postgresql://movie_rwv7_user:XfgZokOGzsi8H9AIFDzuvAjSQq5Hmc6P@dpg-db3i34jtqb8s73e3mmmg-a/movie_rwv7
