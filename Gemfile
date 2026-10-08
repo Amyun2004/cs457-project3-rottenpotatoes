@@ -55,7 +55,9 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
-group :development do
+group :development, :test do
+  gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
+  gem "fiddle", platforms: %i[ windows ]
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 end
